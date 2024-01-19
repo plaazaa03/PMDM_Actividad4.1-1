@@ -10,8 +10,8 @@
             android:layout_width="239dp"
             android:layout_height="260dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView"
             tools:layout_editor_absoluteY="-21dp" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
-    <EditText
+            app:layout_constraintEnd_toEndOf="parent" tools:ignore="MissingConstraints"/>
+    <com.dam.pmdm_actividad41_1.CuentaBancaria
             android:layout_width="189dp"
             android:layout_height="48dp"
             android:inputType="number"
